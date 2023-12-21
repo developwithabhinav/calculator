@@ -1,0 +1,158 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: background-color 1s, color 0.5s;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+::selection {
+  background: none;
+}
+
+body {
+  align-items: center;
+  background: linear-gradient(to bottom right, rgb(124, 1, 124), rgb(172, 0, 29));
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  font-family: sans-serif;
+  height: 100vh;
+  justify-content: center;
+}
+
+/* Calculator */
+.calculator {
+  align-items: center;
+  background: rgb(34, 37, 45);
+  border-radius: 25px;
+  box-shadow: 0 0 50px 1px rgb(58, 58, 58);
+  display: flex;
+  flex-direction: column;
+  height: 60rem;
+  padding-top: 2rem;
+  position: relative;
+  width: 30rem;
+}
+
+/* Calculator Screen */
+.calculator__screen {
+  align-items: end;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  justify-content: space-between;
+  margin-top: 6rem;
+  padding: 1rem;
+  width: 95%;
+}
+
+.calculator__screen__one {
+  font-size: 2rem;
+}
+
+.calculator__screen__main {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Calculator Body */
+.calculator__body {
+  align-items: center;
+  background:rgb(41, 45, 54);
+  border-radius: 25px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.calculator__buttons {
+  display: grid;
+  grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+  gap: 10px 7px;
+}
+
+.btn {
+  user-select: none;
+  align-items: center;
+  background: rgb(39, 43, 51);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  outline: none;
+  padding: 1.65rem;
+  font-weight: 500;
+  font-size: 1.75rem;
+}
+
+.btn--white {
+  color: white;
+}
+
+.btn--cyan {
+  color: #26ffd8;
+}
+
+.btn--orange {
+  color: rgb(244, 122, 122);
+}
+
+/* Calculator Theme */
+.calculator__theme {
+  align-items: center;
+  background: rgb(45, 49, 58);
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 2rem;
+  height: 6rem;
+  width: 3.75rem;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-gold {
+  color: gold !important;
+}
+
+.icon-dim-black {
+  color: rgb(45, 49, 58) !important;
+}
+
+.color-dark-cyan {
+  color: darkcyan;
+}
+
+.background-white {
+  background: white;
+}
+
+.background-light-gray {
+  background: #eef;
+}
+
+.background-body-light-theme {
+  background: linear-gradient(to bottom right, rgb(199, 0, 199), rgb(255, 114, 137));
+}
+
+.display-none {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+.display-block {
+  height: 52%;
+  width: 52%;
+  overflow: visible;
+}

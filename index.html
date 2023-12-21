@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/38e0495f56.js" crossorigin="anonymous"></script>
+  <!-- Meta Tags -->
+  <meta name='author' content="Abhinav Singh">
+  <meta name="description" content="This project is my first project made using pure HTML, CSS and Javascript. No library or framework is used">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css">
+  <link rel="icon" type='image/x-icon' href="/images/favicon.ico">
+
+  <title>The Calculator Project</title>
+</head>
+<body>
+  <div class="calculator">
+    <div class="calculator__theme icon-gold">
+      <i id="theme__moon" class="fa-solid fa-moon"></i>
+      <i id="theme__sun" class="fa-solid fa-sun display-none"></i>
+    </div>
+
+    <div class="calculator__screen">
+      <div class="calculator__screen__one"></div>
+      <div class="calculator__screen__main"></div>
+    </div>
+
+    <div class="calculator__body">
+      <div class="calculator__buttons">
+        <button class="btn btn--cyan" value="c"><i class="fa-solid fa-a"></i> <i class="fa-solid fa-c"></i></button>
+        <button class="btn btn--cyan" value="%"><i class="fa-solid fa-percent"></i></button>
+        <button class="btn btn--cyan" value="d"><i class="fa-solid fa-delete-left"></i></button>
+        <button class="btn btn--orange" value="/"><i class="fa-solid fa-divide"></i></button>
+
+        <button class="btn btn--white" value="7"><i class="fa-solid fa-7"></i></button>
+        <button class="btn btn--white" value="8"><i class="fa-solid fa-8"></i></button>
+        <button class="btn btn--white" value="9"><i class="fa-solid fa-9"></i></button>
+        <button class="btn btn--orange" value="*"><i class="fa-solid fa-xmark"></i></button>
+
+        <button class="btn btn--white" value="4"><i class="fa-solid fa-4"></i></button>
+        <button class="btn btn--white" value="5"><i class="fa-solid fa-5"></i></button>
+        <button class="btn btn--white" value="6"><i class="fa-solid fa-6"></i></button>
+        <button class="btn btn--orange" value="-"><i class="fa-solid fa-minus"></i></button>
+
+        <button class="btn btn--white" value="1"><i class="fa-solid fa-1"></i></button>
+        <button class="btn btn--white" value="2"><i class="fa-solid fa-2"></i></button>
+        <button class="btn btn--white" value="3"><i class="fa-solid fa-3"></i></button>
+        <button class="btn btn--orange" value="+"><i class="fa-solid fa-plus"></i></button>
+
+        <button class="btn btn--white" value="00"><i class="fa-solid fa-0"></i> <i class="fa-solid fa-0"></i></button>
+        <button class="btn btn--white" value="0"><i class="fa-solid fa-0"></i></button>
+        <button class="btn btn--white" value=".">.</button>
+        <button class="btn btn--orange" value="="><i class="fa-solid fa-equals"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/scripts/main.js"></script>
+</body>
+</html>
