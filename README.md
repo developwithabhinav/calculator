@@ -1,6 +1,6 @@
 # The Calculator Project
 
-This project is Live @ <a target='_blank' href='https://calculator11713.netlify.app'>calculator11713.netlify.app</a>
+This project is Live @ <a target='_blank' href='https://developwithabhinav-calculator.netlify.app'>calculator11713.netlify.app</a>
 
 This calculator project is a web-based application that allows users to perform basic mathematical operations such as addition, subtraction, multiplication, percentage and division. The calculator is build using HTML, CSS and JavaScript and no external libraries or frameworks are used to develop it.
 
